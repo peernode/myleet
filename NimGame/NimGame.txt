@@ -10,11 +10,12 @@ Hint:
 1.If there are 5 stones in the heap, could you figure out a way to remove the stones such that you will always be the winner? 
 
 Solution:
-
 1. for n = 1,2,3, you can win because you can take them all for the first shot 
 2. for n = 4, you lose
 3. for n = 4 * 1 + (1, 2, 3), you can reduce the case to 2), you will win
 4. for n = 4 * 2, you lose
 
+my tips:
+采用数学里的归纳法，先判断1,2,3,4的情况：4为一个循环，为4时，轮到谁谁输；
 
 
