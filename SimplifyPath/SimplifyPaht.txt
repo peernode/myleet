@@ -1,0 +1,12 @@
+Simplify Path:
+
+Given an absolute path for a file (Unix-style), simplify it.
+
+For example,
+path = "/home/", => "/home"
+path = "/a/./b/../../c/", => "/c"
+
+Hint:
+1、额外加个/，避免输入未加/
+2、输出时，如果个数>1，则去掉末尾的/
+3、每次push_back两个，或者pop_back两个，其中一个为/
