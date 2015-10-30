@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimplifyPath.cpp">
+    <ClCompile Include="AddBinary.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
