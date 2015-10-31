@@ -1,0 +1,17 @@
+Unique Binary Search Trees：
+
+Given n, how many structurally unique BST's (binary search trees) that store values 1...n?
+
+For example,
+Given n = 3, there are a total of 5 unique BST's.
+
+提示：
+采用一维动态规划进行解答：
+* 状态：代表什么以及如何找到它；用来描述该问题的子问题的解；
+* 状态转移方程：描述状态之间如何转移；
+
+注意：二分查找树的定义是，左子树节点均小于root，右子树节点均大于root！
+
+分析：本题其实关键是递推过程的分析，n个点中每个点都可以作为root，当 i 作为root时，小于 i  的点都只能放在其左子树中，大于 i 的点只能放在右子树中，此时只需求出左、右子树各有多少种，二者相乘即为以 i 作为root时BST的总数。
+
+！！！分析左右子树的可能数量时，其实更关心左右子树的点数，而不关心其具体取值；
