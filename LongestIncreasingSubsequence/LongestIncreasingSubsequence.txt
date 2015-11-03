@@ -1,0 +1,19 @@
+Longest Increasing Subsequence:
+
+Given an unsorted array of integers, find the length of longest increasing subsequence.
+
+For example,
+Given [10, 9, 2, 5, 3, 7, 101, 18],
+The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4. Note that there may be more than one LIS combination, it is only necessary for you to return the length.
+
+Your algorithm should run in O(n2) complexity.
+
+Follow up: Could you improve it to O(n log n) time complexity?
+
+提示：
+采用一维动态规划进行解答：
+* 状态：代表什么以及如何找到它；用来描述该问题的子问题的解；
+* 状态转移方程：描述状态之间如何转移；
+
+状态：当前的最长子序列
+转移方程： length(n) =  max  { length(i) + 1 : if s[i] < s[n] } 需要和前面的每个元素拼接下，看看哪个构成最长递增子序列；
