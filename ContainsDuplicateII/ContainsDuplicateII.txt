@@ -1,0 +1,7 @@
+Contains Duplicate II：
+
+Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the difference between i and j is at most k.
+
+提示：
+1、记录每个数值的最新位置，当重复出现该值时，判断距离是否足够；
+如果够，则为真，否则更新数值；
