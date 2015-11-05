@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainsDuplicateII", "Cont
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidAnagram", "ValidAnagram\ValidAnagram.vcxproj", "{ACB00477-759B-42AB-94F9-125C7C806799}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleNumber", "SingleNumber\SingleNumber.vcxproj", "{A7BC855D-8E4F-430E-8EE9-702A52C6471F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{ACB00477-759B-42AB-94F9-125C7C806799}.Release|x64.Build.0 = Release|x64
 		{ACB00477-759B-42AB-94F9-125C7C806799}.Release|x86.ActiveCfg = Release|Win32
 		{ACB00477-759B-42AB-94F9-125C7C806799}.Release|x86.Build.0 = Release|Win32
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Debug|x64.ActiveCfg = Debug|x64
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Debug|x64.Build.0 = Debug|x64
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Debug|x86.Build.0 = Debug|Win32
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Release|x64.ActiveCfg = Release|x64
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Release|x64.Build.0 = Release|x64
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Release|x86.ActiveCfg = Release|Win32
+		{A7BC855D-8E4F-430E-8EE9-702A52C6471F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
