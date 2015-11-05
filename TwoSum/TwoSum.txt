@@ -1,0 +1,13 @@
+Two Sum：
+Given an array of integers, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+You may assume that each input would have exactly one solution.
+
+Input: numbers={2, 7, 11, 15}, target=9
+Output: index1=1, index2=2
+
+提示：
+1、采用map记录已出现但未匹配的数的位置；
+2、当出现新数时，利用target-新数，看看差值是否在map中出现过；
