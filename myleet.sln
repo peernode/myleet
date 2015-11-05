@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleNumber", "SingleNumbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{735B0C58-C983-49F4-B9CE-596402910031}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.vcxproj", "{42AF388E-D39E-427D-A3AE-C721BC474B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{735B0C58-C983-49F4-B9CE-596402910031}.Release|x64.Build.0 = Release|x64
 		{735B0C58-C983-49F4-B9CE-596402910031}.Release|x86.ActiveCfg = Release|Win32
 		{735B0C58-C983-49F4-B9CE-596402910031}.Release|x86.Build.0 = Release|Win32
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Debug|x64.ActiveCfg = Debug|x64
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Debug|x64.Build.0 = Debug|x64
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Debug|x86.Build.0 = Debug|Win32
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Release|x64.ActiveCfg = Release|x64
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Release|x64.Build.0 = Release|x64
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Release|x86.ActiveCfg = Release|Win32
+		{42AF388E-D39E-427D-A3AE-C721BC474B8F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
