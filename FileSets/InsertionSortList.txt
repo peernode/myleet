@@ -1,0 +1,7 @@
+Insertion Sort List：
+
+Sort a linked list using insertion sort.
+
+提示：
+1、提供一个dummy位于开头，那么所有插入在所有的地方考虑方式都一样；
+2、只有新元素小于已排序元素，才插入；
