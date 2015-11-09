@@ -15,10 +15,12 @@ public:
 	bool isAnagram(string s, string t) 
 	{
 		int items[26] = { 0 };
-		for (int i = 0; i < s.length(); ++i)
+		for (int i = 0; i < s.length() || i < t.length(); ++i)
 		{
-			++items[s[i] - 'a'];
-			--items[s[i] - 'a'];
+		    if(i<s.length())
+			    ++items[s[i] - 'a'];
+			if(i<t.length())
+			    --items[t[i] - 'a'];
 		}
 
 		for (int i = 0; i < 26; ++i)
