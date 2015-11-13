@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="ReverseWordsInaString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
